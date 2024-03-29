@@ -8,33 +8,46 @@
         align-items: center;
         justify-content: space-between;
     }
+    .logo img {
+        width: 10rem;
+        height: 2.5rem;
+        padding-left: 8em;
+        /* margin: 81px 126px; */
+    }
+    .nav-list {
+        display: none;
+    }
+    .main-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .main-img img {
-        width: 33rem;
-        height: 33rem;
+        width: 10rem;
+        height: 10rem;
     }
     .main-body {
         width: 40rem;
         height: auto;
-        margin-left: 7rem;
+        margin-left: 2rem;
     
     }
     .bold-text {
-        font-size: 2.4rem;
+        font-size: 1rem;
     }
     
     .regular-text {
-        font-size: 1.15rem;
+        font-size: .5rem;
         margin-top: 1rem;
     }
     .main-button{
         width: 100%;
-        gap: 0.7rem;
         height: auto;
-        margin-top: 4.5rem;
+        margin-top: 0.5rem;
     }
     .button{
-        width: 12rem;
-        height: 3.5rem;
-        font-size: 1.5rem;
+        width: 5rem;
+        height: 2.5rem;
+        font-size: 0.7rem;
     }
 }

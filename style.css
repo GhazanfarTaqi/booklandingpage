@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.navbar {
+    /* position: fixed; */
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #013456;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    width: 15rem;
+    height: 4rem;
+    padding-left: 8em;
+    /* margin: 81px 126px; */
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    /* margin-top: 2rem; */
+    padding-right: 8rem;
+    /* margin: 81px 83px; */
+}
+
+.nav-list li {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+/* Main Section */
+.main {
+    display: flex;
+    margin-top: 2.5rem;
+    /* position:static; */
+}
+
+.main-img img {
+    width: 43rem;
+    height: 43rem;
+}
+
+.main-body {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+    height: auto;
+    margin-left: 5rem;
+    /* margin-top: 39px; */
+
+}
+
+.bold-text {
+    /* background-color: bisque; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.75rem;
+    color: #013456;
+}
+
+.regular-text {
+    /* background-color: blue; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+.main-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 4.5rem;
+}
+.button{
+    width: 13rem;
+    height: 3.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+#buy-bt{
+    background-color: #FAD405;
+    color: #013456;
+}
+#read-bt{
+    background-color: #013456;
+    color: #ffffff;
+}
